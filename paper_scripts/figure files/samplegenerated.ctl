@@ -1,0 +1,11 @@
+DSET samplegenerated.bin
+OPTIONS big_endian
+UNDEF -1.e30
+TITLE samplegenerated
+XDEF 288 LINEAR 0 1.25
+YDEF 192 LINEAR -90 0.9424
+ZDEF 1 LEVELS 1000
+TDEF 1 LINEAR 01jan0000 1mo
+VARS 1
+var 0 t,y,x var
+ENDVARS
