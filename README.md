@@ -5,12 +5,12 @@ This repository houses the Jupyter notebook for Pangeo-Enabled ESM Pattern Scali
 ## Relevant citation
 Ben Kravitz and Abigail Snyder, Pangeo-Enabled ESM Pattern Scaling (PEEPS): A customizable dataset of emulated Earth System Model output. Submitted. 
 
-Patterns described in this data paper are located on zenodo: DOI nnn
+Patterns described in this data paper are located on zenodo: https://doi.org/10.5281/zenodo.7139978
 
 
 ### packages necessary to access Pangeo data and pattern scale
 
-`pip install` the following:
+
 ```
 
 matplotlib
@@ -36,9 +36,6 @@ nc_time_axis
 gcsfs
 ```
 
-
-
-From the above set of commands, you will get some output that looks like a URL. Copy/paste this URL into your browser.
 
 ## Pattern scaling
 The `pattern_main` Jupyter notebook contains the calls to create the set of CMIP6 linear patterns for specified variables,
