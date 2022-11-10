@@ -7,9 +7,6 @@ Ben Kravitz and Abigail Snyder, Pangeo-Enabled ESM Pattern Scaling (PEEPS): A cu
 
 Patterns described in this data paper are located on zenodo: DOI nnn
 
-## setup
-
-For general 
 
 ### packages necessary to access Pangeo data and pattern scale
 
