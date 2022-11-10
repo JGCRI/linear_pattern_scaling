@@ -1,6 +1,6 @@
 # Pangeo-Enabled ESM Pattern Scaling (PEEPS) for CMIP6 Earth System Models 
 
-This repository houses the Jupyter notebook for Pangeo-Enabled ESM Pattern Scaling (PEEPS): a flexible tool for accessing CMIP6 Earth System Model (ESM) data via Pangeo without housing the entire archive in-house, and to process and perform linear pattern scaling on the data. Due to Pangeo's capabilities, this Jupyter notebook is effectively the dataset of patterns described in Kravitz and Snyder. The data set itself is housed on zenodo (DOI:nnn) due to size. Pangeo provides setup guides (https://pangeo.io/setup_guides/)
+This repository houses the Jupyter notebook for Pangeo-Enabled ESM Pattern Scaling (PEEPS): a flexible tool for accessing CMIP6 Earth System Model (ESM) data via Pangeo without housing the entire archive in-house, and to process and perform linear pattern scaling on the data. Due to Pangeo's capabilities, this Jupyter notebook is effectively the dataset of patterns described in Kravitz and Snyder. The data set itself is housed on zenodo (https://doi.org/10.5281/zenodo.7139978n) due to size. Pangeo provides setup guides (https://pangeo.io/setup_guides/)
 
 ## Relevant citation
 Ben Kravitz and Abigail Snyder, Pangeo-Enabled ESM Pattern Scaling (PEEPS): A customizable dataset of emulated Earth System Model output. Submitted. 
