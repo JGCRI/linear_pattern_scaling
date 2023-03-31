@@ -1,0 +1,22 @@
+set rgb 64  24.  56.  89.
+set rgb 63  38.  94. 127.
+set rgb 62  74. 133. 163.
+set rgb 61 110. 170. 200.
+set rgb 60  83. 189. 159.
+set rgb 59 153. 240. 178.
+set rgb 58 205. 255. 205.
+
+set rgb 56 255. 255. 255.
+
+set rgb 54 255. 245. 186.
+set rgb 53 245. 224. 158.
+set rgb 52 245. 205. 132.
+set rgb 51 225. 165. 100.
+set rgb 50 205. 133.  63.
+set rgb 49 182. 106.  40.
+set rgb 48 161.  82.  20.
+
+set csmooth on
+set gxout shaded
+set clevs 0.5 1 2 4 8 16 32
+set ccols  56 58 59 60 61 62 63 64

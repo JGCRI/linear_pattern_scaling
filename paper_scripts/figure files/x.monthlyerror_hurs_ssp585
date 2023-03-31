@@ -1,0 +1,181 @@
+reinit
+set display color white
+set mproj robinson
+c
+
+open errormap_hurs_jan_ssp585.ctl
+open errormap_hurs_feb_ssp585.ctl
+open errormap_hurs_mar_ssp585.ctl
+open errormap_hurs_apr_ssp585.ctl
+open errormap_hurs_may_ssp585.ctl
+open errormap_hurs_jun_ssp585.ctl
+open errormap_hurs_jul_ssp585.ctl
+open errormap_hurs_aug_ssp585.ctl
+open errormap_hurs_sep_ssp585.ctl
+open errormap_hurs_oct_ssp585.ctl
+open errormap_hurs_nov_ssp585.ctl
+open errormap_hurs_dec_ssp585.ctl
+
+set vpage 0 11 0 8.5
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+exec y.pct
+d var.1
+y.cbarn.gs 0.8 0
+set vpage 0 11 0 8.5
+set line 0
+draw recf 0 1 11 8.5
+set line 1
+
+set vpage 0 11 4 8.5
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set grid off
+exec y.pct
+d var.1
+draw title hurs ssp585
+set vpage 0 11 0 8.5
+set line 0
+draw recf 0 1 11 7.8
+set line 1
+
+
+set vpage 0 3.6 5.95 7.95
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.1
+draw title JAN
+
+set vpage 3.6 7.2 5.95 7.95
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.2
+draw title FEB
+
+set vpage 7.2 10.8 5.95 7.95
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.3
+draw title MAR
+
+set vpage 0 3.6 4.25 6.25
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.4
+draw title APR
+
+set vpage 3.6 7.2 4.25 6.25
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.5
+draw title MAY
+
+set vpage 7.2 10.8 4.25 6.25
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.6
+draw title JUN
+
+set vpage 0 3.6 2.55 4.55
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.7
+draw title JUL
+
+set vpage 3.6 7.2 2.55 4.55
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.8
+draw title AUG
+
+set vpage 7.2 10.8 2.55 4.55
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.9
+draw title SEP
+
+set vpage 0 3.6 0.85 2.85
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.10
+draw title OCT
+
+set vpage 3.6 7.2 0.85 2.85
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.11
+draw title NOV
+
+set vpage 7.2 10.8 0.85 2.85
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pct
+d var.12
+draw title DEC
+
+printim monthlyerror_hurs_ssp585.png
+c
+

@@ -1,0 +1,61 @@
+reinit
+set display color white
+set mproj robinson
+c
+
+open sampleslope.ctl
+open sampleintercept.ctl
+open samplegenerated.ctl
+open sampleresidual.ctl
+
+set grid off
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pr
+d var.1
+y.cbarn.gs
+printim sampleslope.png
+c
+
+set grid off
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pr2
+d var.2
+y.cbarn.gs
+printim sampleintercept.png
+c
+
+set grid off
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pr3
+d var.3
+y.cbarn.gs
+printim samplegenerated.png
+c
+
+set grid off
+set lon -180 180
+set lat -90 90
+set grads off
+set gxout shaded
+set ylopts 1 4 0.15
+set xlopts 1 4 0.15
+exec y.pr4
+d var.4
+y.cbarn.gs
+printim sampleresidual.png
+c
